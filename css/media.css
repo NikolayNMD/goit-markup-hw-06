@@ -36,6 +36,36 @@
   .customers-list .link {
     max-width: 168px;
   }
+
+  .bottom .logo {
+    display: inline-block;
+  }
+
+  .footer-text {
+    width: 264px;
+    margin-left: 0;
+  }
+
+  .sm-sub-text {
+    text-align: start;
+  }
+
+  .footer-sm-list {
+    justify-content: start;
+  }
+
+  .footer-form {
+    display: flex;
+    gap: 24px;
+  }
+
+  .footer-input {
+    width: 264px;
+  }
+
+  .footer-button {
+    margin-left: 0;
+  }
 }
 
 @media screen and (min-width: 1158px) {
