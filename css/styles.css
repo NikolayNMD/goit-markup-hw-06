@@ -686,8 +686,10 @@ input {
 }
 
 .section-customers {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .section-customers .title {
@@ -703,14 +705,20 @@ input {
 
 .customers-list {
   display: flex;
-  gap: 24px;
+  /* gap: 24px; */
+  flex-wrap: wrap;
+  gap: 72px 16px;
+}
+
+.customers-item {
+  width: calc((100% - 16px) / 2);
 }
 
 .customers-list .link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 168px;
+  max-width: 190px;
   height: 88px;
   border-radius: 4px;
   color: var(--light-slate-color);
