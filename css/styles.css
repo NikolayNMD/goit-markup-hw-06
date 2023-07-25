@@ -167,14 +167,17 @@ input {
 
 .bottom {
   background-color: var(--navy-color);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .bottom .logo {
-  display: inline-block;
+  /* display: inline-block; */
   margin-bottom: 16px;
   margin-right: 0;
+  justify-content: center;
 }
 
 .logo-change-footer {
@@ -183,34 +186,42 @@ input {
 
 .footer-text {
   color: var(--cloud-color);
-  display: flex;
-  width: 264px;
+  /* display: flex; */
+  /* width: 264px; */
+  max-width: 268px;
+  width: 100%;
   flex-direction: column;
   flex-shrink: 0;
+  margin: 0 auto;
+  margin-bottom: 72px;
 }
 
 .father-footer-container {
-  display: flex;
-  align-items: baseline;
+  /* display: flex;
+  align-items: baseline; */
+  flex-wrap: wrap;
 }
 
 .footer-info-container {
-  margin-right: 120px;
+  /* margin-right: 120px; */
 }
 
 .footer-sm-container {
-  margin-right: 80px;
+  /* margin-right: 80px; */
 }
 
 .sm-sub-text {
   font-weight: 500;
   color: var(--white-color);
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .footer-sm-list {
   display: flex;
   gap: 16px;
+  margin-bottom: 72px;
+  justify-content: center;
 }
 
 .footer-sm-list .link {
@@ -234,15 +245,16 @@ input {
 }
 
 .footer-form {
-  display: flex;
-  gap: 24px;
+  /* display: flex;
+  gap: 24px; */
+  flex-wrap: wrap;
 }
 
 .footer-input {
   padding-left: 16px;
   border-radius: 4px;
   border: 1px solid var(--white-color);
-  width: 264px;
+  width: 100%;
   height: 40px;
   flex-shrink: 0;
   background-color: transparent;
@@ -251,10 +263,12 @@ input {
   line-height: 1.5;
   letter-spacing: 0.04em;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  margin-bottom: 16px;
 }
 
 .footer-button {
   display: flex;
+  margin: 0 auto;
   cursor: pointer;
   min-width: 165px;
   height: 40px;
