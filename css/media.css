@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .prof-section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .prof-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .prof-title {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
