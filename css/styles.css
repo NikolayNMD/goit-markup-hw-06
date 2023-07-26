@@ -197,9 +197,9 @@ input {
 }
 
 .father-footer-container {
-  /* display: flex;
-  align-items: baseline; */
-  flex-wrap: wrap;
+  /* display: flex; */
+  /* align-items: baseline; */
+  /* flex-wrap: wrap; */
 }
 
 .footer-info-container {
