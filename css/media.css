@@ -3,6 +3,10 @@
     max-width: 768px;
   }
 
+  .modal {
+    width: 408px;
+  }
+
   .top-line {
     padding: 0;
   }

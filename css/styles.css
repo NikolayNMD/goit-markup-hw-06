@@ -390,7 +390,8 @@ input {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 408px;
+  width: 100%;
+  max-width: 392px;
   min-height: 584px;
   background-color: var(--dairy-color);
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
