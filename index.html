@@ -18,7 +18,7 @@
     <title>Main Page</title>
   </head>
   <body>
-    <!-- <header class="top-line">
+    <header class="top-line">
       <div class="container navigation-container">
         <nav class="navigation">
           <a href="./index.html" class="logo link"
@@ -42,8 +42,75 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="mob-menu-op-button" data-menu-open>
+          <svg class="mob-menu-op-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-menu-hamburger"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+      <div class="mob-menu is-hidden" data-menu>
+        <div>
+          <button type="button" class="mob-close-button" data-menu-close>
+            <svg class="mob-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <nav class="mob-navigation">
+            <ul class="page-nav-mob list">
+              <li><a href="./index.html" class="link current">Studio</a></li>
+              <li><a href="./portfolio.html" class="link">Portfolio</a></li>
+              <li><a href="" class="link">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <address class="header-mob-adres">
+            <ul class="contacts-mob list">
+              <li>
+                <a href="mailto:info@devstudio.com" class="link mail"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+110001111111" class="link tel"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mob-sm-list list">
+            <li class="mob-sm-item">
+              <a href="" class="link">
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram-logo"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-sm-item">
+              <a href="" class="link">
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter-logo"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-sm-item">
+              <a href="" class="link">
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook-logo"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-sm-item">
+              <a href="" class="link">
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin-logo"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
     <main>
       <section class="main-section">
         <div class="container">
@@ -114,6 +181,7 @@
           <ul class="projects-list list">
             <li class="projects-item">
               <img
+                srcset="./images/img1.jpg 1x, ./images/img1-2x.jpg 2x"
                 src="./images/img1.jpg"
                 alt="computer"
                 width="360"
@@ -122,6 +190,7 @@
             </li>
             <li class="projects-item">
               <img
+                srcset="./images/img2.jpg 1x, ./images/img2-2x.jpg 2x"
                 src="./images/img2.jpg"
                 alt="telephone"
                 width="360"
@@ -130,6 +199,7 @@
             </li>
             <li class="projects-item">
               <img
+                srcset="./images/img3.jpg 1x, ./images/img3-2x.jpg 2x"
                 src="./images/img3.jpg"
                 alt="telephone"
                 width="360"
@@ -145,6 +215,7 @@
           <ul class="our-team-list list">
             <li class="our-team-item">
               <img
+                srcset="./images/teamcard1.jpg 1x, ./images/teamcard1-2x.jpg 2x"
                 src="./images/teamcard1.jpg"
                 alt="mark"
                 width="264"
@@ -190,6 +261,7 @@
             </li>
             <li class="our-team-item">
               <img
+                srcset="./images/teamcard2.jpg 1x, ./images/teamcard2-2x.jpg 2x"
                 src="./images/teamcard2.jpg"
                 alt="tom"
                 width="264"
@@ -235,6 +307,7 @@
             </li>
             <li class="our-team-item">
               <img
+                srcset="./images/teamcard3.jpg 1x, ./images/teamcard3-2x.jpg 2x"
                 src="./images/teamcard3.jpg"
                 alt="camila"
                 width="264"
@@ -280,6 +353,7 @@
             </li>
             <li class="our-team-item">
               <img
+                srcset="./images/teamcard4.jpg 1x, ./images/teamcard4-2x.jpg 2x"
                 src="./images/teamcard4.jpg"
                 alt="daniel"
                 width="264"
@@ -522,5 +596,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
