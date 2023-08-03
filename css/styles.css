@@ -219,6 +219,7 @@ input {
   .modal {
     max-width: 392px !important;
     width: 90% !important;
+    font-style: italic;
   }
 }
 
