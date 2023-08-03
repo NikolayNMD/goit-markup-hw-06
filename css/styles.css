@@ -211,6 +211,17 @@ input {
   color: var(--iris-color);
 }
 
+@media (max-width: 420px) {
+  .contacts-mob .tel {
+    font-size: 26px;
+  }
+
+  .modal {
+    max-width: 392px !important;
+    width: 90% !important;
+  }
+}
+
 .contacts-mob .mail {
   font-size: 20px;
   font-style: normal;
@@ -391,7 +402,7 @@ input {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   width: 100%;
-  max-width: 392px;
+  max-width: 408px;
   min-height: 584px;
   background-color: var(--dairy-color);
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
